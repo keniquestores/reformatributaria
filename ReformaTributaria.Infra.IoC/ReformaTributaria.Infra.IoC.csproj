@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Asp.Versioning.Mvc" Version="8.1.1" />
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.22" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.1" />
+	  <PackageReference Include="Hangfire" Version="1.8.22" />
+	  <PackageReference Include="Hangfire.Dashboard.Basic.Authentication" Version="8.0.0" />
+	  <PackageReference Include="Hangfire.PostgreSql" Version="1.20.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReformaTributaria.Application\ReformaTributaria.Application.csproj" />
+    <ProjectReference Include="..\ReformaTributaria.CrossCutting\ReformaTributaria.CrossCutting.csproj" />
+    <ProjectReference Include="..\ReformaTributaria.Infra\ReformaTributaria.Infra.csproj" />
+  </ItemGroup>
+
+ </Project>

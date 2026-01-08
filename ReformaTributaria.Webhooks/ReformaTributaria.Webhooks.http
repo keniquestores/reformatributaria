@@ -1,0 +1,6 @@
+@ReformaTributaria.Webhooks_HostAddress = http://localhost:5099
+
+GET {{ReformaTributaria.Webhooks_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@ReformaTributaria.HangFire_HostAddress = http://localhost:5106
+
+GET {{ReformaTributaria.HangFire_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

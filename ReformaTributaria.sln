@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReformaTributaria", "ReformaTributaria\ReformaTributaria.csproj", "{712FEF0C-5106-4276-B898-363E36483DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReformaTributaria.Domain", "ReformaTributaria.Domain\ReformaTributaria.Domain.csproj", "{93E9DBD1-128B-44C6-AD22-7AA665419473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReformaTributaria.Application", "ReformaTributaria.Application\ReformaTributaria.Application.csproj", "{D03850FD-C9AC-4558-9F66-5B6A9284647F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReformaTributaria.Infra", "ReformaTributaria.Infra\ReformaTributaria.Infra.csproj", "{29163BF9-326A-4D74-9355-37C642D01A58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReformaTributaria.Infra.IoC", "ReformaTributaria.Infra.IoC\ReformaTributaria.Infra.IoC.csproj", "{67BB7C08-AB4E-41F5-A8EB-433DE1970744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReformaTributaria.HangFire", "ReformaTributaria.HangFire\ReformaTributaria.HangFire.csproj", "{DB6BB58D-7EC4-4AA0-B66F-75A3B11B4747}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{71FA5076-2E05-46C5-8F54-300E5B959839}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{A9EDA76C-3EFB-480C-8494-3A96BB57783A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{4E72B601-7E29-494F-8B5E-E5596F5468A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReformaTributaria.Webhooks", "ReformaTributaria.Webhooks\ReformaTributaria.Webhooks.csproj", "{F048079D-5EAD-4209-9877-7C818E2A2502}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - CrossCutting", "5 - CrossCutting", "{CD42F5A7-8D84-43B1-8678-5071E364C53D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReformaTributaria.CrossCutting", "ReformaTributaria.CrossCutting\ReformaTributaria.CrossCutting.csproj", "{71F14996-70BA-44E4-B384-C211306F8136}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Test", "6 - Test", "{214B4B76-CFF2-4C42-A548-398D87E50A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReformaTributaria.Test", "ReformaTributaria.Test\ReformaTributaria.Test.csproj", "{4745286C-58B1-45FD-B26B-D96DBA9C5535}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{712FEF0C-5106-4276-B898-363E36483DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712FEF0C-5106-4276-B898-363E36483DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712FEF0C-5106-4276-B898-363E36483DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712FEF0C-5106-4276-B898-363E36483DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E9DBD1-128B-44C6-AD22-7AA665419473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E9DBD1-128B-44C6-AD22-7AA665419473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E9DBD1-128B-44C6-AD22-7AA665419473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E9DBD1-128B-44C6-AD22-7AA665419473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03850FD-C9AC-4558-9F66-5B6A9284647F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03850FD-C9AC-4558-9F66-5B6A9284647F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03850FD-C9AC-4558-9F66-5B6A9284647F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03850FD-C9AC-4558-9F66-5B6A9284647F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29163BF9-326A-4D74-9355-37C642D01A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29163BF9-326A-4D74-9355-37C642D01A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29163BF9-326A-4D74-9355-37C642D01A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29163BF9-326A-4D74-9355-37C642D01A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BB7C08-AB4E-41F5-A8EB-433DE1970744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BB7C08-AB4E-41F5-A8EB-433DE1970744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BB7C08-AB4E-41F5-A8EB-433DE1970744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BB7C08-AB4E-41F5-A8EB-433DE1970744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB6BB58D-7EC4-4AA0-B66F-75A3B11B4747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6BB58D-7EC4-4AA0-B66F-75A3B11B4747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6BB58D-7EC4-4AA0-B66F-75A3B11B4747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6BB58D-7EC4-4AA0-B66F-75A3B11B4747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F048079D-5EAD-4209-9877-7C818E2A2502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F048079D-5EAD-4209-9877-7C818E2A2502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F048079D-5EAD-4209-9877-7C818E2A2502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F048079D-5EAD-4209-9877-7C818E2A2502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F14996-70BA-44E4-B384-C211306F8136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F14996-70BA-44E4-B384-C211306F8136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F14996-70BA-44E4-B384-C211306F8136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F14996-70BA-44E4-B384-C211306F8136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4745286C-58B1-45FD-B26B-D96DBA9C5535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4745286C-58B1-45FD-B26B-D96DBA9C5535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4745286C-58B1-45FD-B26B-D96DBA9C5535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4745286C-58B1-45FD-B26B-D96DBA9C5535}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{712FEF0C-5106-4276-B898-363E36483DE1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{93E9DBD1-128B-44C6-AD22-7AA665419473} = {4E72B601-7E29-494F-8B5E-E5596F5468A3}
+		{D03850FD-C9AC-4558-9F66-5B6A9284647F} = {71FA5076-2E05-46C5-8F54-300E5B959839}
+		{29163BF9-326A-4D74-9355-37C642D01A58} = {A9EDA76C-3EFB-480C-8494-3A96BB57783A}
+		{67BB7C08-AB4E-41F5-A8EB-433DE1970744} = {A9EDA76C-3EFB-480C-8494-3A96BB57783A}
+		{DB6BB58D-7EC4-4AA0-B66F-75A3B11B4747} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F048079D-5EAD-4209-9877-7C818E2A2502} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{71F14996-70BA-44E4-B384-C211306F8136} = {CD42F5A7-8D84-43B1-8678-5071E364C53D}
+		{4745286C-58B1-45FD-B26B-D96DBA9C5535} = {214B4B76-CFF2-4C42-A548-398D87E50A22}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87A6C0F3-0547-4570-8FD6-347E67FF5633}
+	EndGlobalSection
+EndGlobal
