@@ -41,7 +41,7 @@ namespace ReformaTributaria.Application.Services
 
 
             var fila = _mapper.Map<Fila>(dto);
-            fila.DataHoraInserção = DateTime.UtcNow;
+            fila.DataHoraInsercao = DateTime.UtcNow;
             fila.ClienteId = cliente.Id;            
 
             await _filaRepository.AddAsync(fila);

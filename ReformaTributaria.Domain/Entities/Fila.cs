@@ -9,7 +9,7 @@
 
         public string InscricaoFederalContribuinte { get; set; } = null!;        
 
-        public DateTime DataHoraInserção { get; set; }
+        public DateTime DataHoraInsercao { get; set; }
 
         public bool Ativo { get; set; } = true;
 
